@@ -1,0 +1,7 @@
+/dist/
+/public/
+/node_modles/
+/scripts/
+/config/
+yarn.lock
+.DS_Store

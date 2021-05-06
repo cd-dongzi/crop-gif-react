@@ -1,0 +1,17 @@
+@import '~antd/dist/antd.css';
+
+.container {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.option {
+  display: block;
+  margin: 10px auto;
+}
+.preview-img {
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  object-fit: contain;
+}
