@@ -120,7 +120,8 @@ const Cropper: Cropper = ({ children, cropGif, quality }) => {
         const gif = new GIF({
           workers: 2,
           quality: 10,
-          workerScript: '/static/js/gif.worker.js'
+          // workerScript: '/static/js/gif.worker.js'
+          workerScript: './static/js/gif.worker.js'
         })
         const addFrame = (canvas: HTMLCanvasElement, delay: number) => {
           gif.addFrame(canvas, { copy: true, delay })
